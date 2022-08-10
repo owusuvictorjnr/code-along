@@ -1,17 +1,17 @@
 import Header from "./components/Header";
-import { Button1, Button2, Button3 } from "./components/Button";
 import { Images } from "./components/Images";
-// import { Button2 } from "./components/Button";
-// import { Button3 } from "./components/Button";
-
+import Button from "./components/Button";
+import Navbar from './components/Navbar'
 
 function App() {
   return(
     <div>
-      <Header/>
-      <Button1/>
-      <Button2/>
-      <Button3/>
+      <Navbar />
+      <Header label="Add to Card"/>
+      <Button label="Read More"/>
+      <Button label={"Register"}/>
+      <Button label="Login"/>
+      <Button/>
       <Images />
     </div>
 
