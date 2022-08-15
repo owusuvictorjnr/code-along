@@ -4,11 +4,11 @@ import NavItem from "./NavItem"
 
 function Navbar(){
     return(
-        <nav className="flex justify-between ">
-            <h3>
+        <nav className="flex justify-between py-5 px-20 shadow-md">
+            <h3 className="font-bold">
                 Vitech Solutions
             </h3>
-            <ul>
+            <ul className="flex gap-5">
                 <NavItem menu="Home"/>
                 <NavItem menu="Products"/>
                 <NavItem menu="Services"/>
