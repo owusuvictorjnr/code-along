@@ -3,15 +3,15 @@
 // import Button from "./components/Button";
 // import Navbar from './components/Navbar'
 // import Practice from "./components/Practice";
-// import TaskManager from "./components/TaskManager"
-import Form from "./components/Form"
+import TaskManager from "./components/TaskManager"
+// import Form from "./components/Form"
 
 function App() {
   return(
     <div>
-       <Form/>
+       {/* <Form/> */}
 
-      {/* <TaskManager/> */}
+      <TaskManager/>
       {/* <Navbar /> */}
       {/* <Header label="Add to Card"/> */}
       {/* <Button label="Read More"/>

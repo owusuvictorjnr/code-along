@@ -7,7 +7,7 @@ function Form() {
         middleName : "",
         lastName: "",
         gender: "",
-        DateOfBith: "",
+        DateOfBirth: "",
         phoneNumber: "",
         email: "",
     
@@ -114,7 +114,7 @@ function Form() {
                     type="date" 
                     name="dateOfBith"
                     className='form-input'
-                    value={data.DateOfBith}
+                    value={data.DateOfBirth}
                     onChange={handleChange}
                     />
                 </div>
