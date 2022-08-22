@@ -6,12 +6,14 @@
 // import TaskManager from "./components/TaskManager"
 // import Form from "./components/Form"
 import ProductList from "./components/ProductList";
+import Spinner from "./components/Spinner";
 
 function App() {
-  return(
+  return (
     <div>
       <ProductList />
-       {/* <Form/> */}
+      {/* <Spinner/> */}
+      {/* <Form/> */}
 
       {/* <TaskManager/> */}
       {/* <Navbar /> */}
@@ -22,8 +24,7 @@ function App() {
       {/* <Images /> */}
       {/* <Practice /> */}
     </div>
-
-  ) 
+  );
 }
 
 export default App;
