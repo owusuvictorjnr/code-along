@@ -4,7 +4,7 @@ const Spinner = () => {
 
 <div className="flex justify-center items-center h-screen">
     <svg
-        className="mr-2 w-40 h-40 
+        className="mr-2 w-10 h-10 
         text-gray-200 animate-spin 
         dark:text-gray-600 fill-blue-600" 
         viewBox="0 0 100 101" fill="none" 

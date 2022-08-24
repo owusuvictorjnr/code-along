@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import TaskItems from "./TaskItems";
 // import { TrashIcon } from "@heroicons/react/outline"
-import TaskItem from "./TaskItems";
+import TaskItem from "../components/TaskItems";
 import {v4 as uuid}  from "uuid";
 
 function TaskManager() {

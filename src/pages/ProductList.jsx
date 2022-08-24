@@ -1,7 +1,7 @@
 import React from "react";
 import useAxios from "../hooks/useAxios";
-import Product from "./Product";
-import Spinner from "./Spinner";
+import Product from "../components/Product";
+import Spinner from "../components/Spinner";
 
 function ProductList() {
   const { data, isLoading, error } = useAxios(
